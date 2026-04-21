@@ -28,3 +28,31 @@ Goal: Master the "Command Center" and learn to navigate the Linux directory tree
 * rm — Remove/Delete a file.
 
 > Mindset Shift: Linux isn't just a black screen; it's a structure of "rooms" (folders) and "items" (files). Moving away from the mouse and into the keyboard is the first step toward automation.
+
+---
+
+### Day 2: Getting Useful & Managing the "Building"
+Goal: Learn to install tools, manage files, and set "keys" (permissions) for different rooms.
+
+#### 1. System Maintenance & Installations
+* sudo apt update && sudo apt upgrade -y — The "General Maintenance" command to keep the system current.
+* sudo apt install [tool] — Install new utility programs (e.g., htop, tree).
+
+#### 2. File Management (The "Furniture" Move)
+* cp — Copy: Create a backup or duplicate of a file.
+* mv — Move: Used to relocate a file or rename it.
+* tree — A visual map of every folder and file in your current directory.
+
+#### 3. Permissions (The "Keys")
+* ls -l — Detailed list showing who owns a file and what they can do with it.
+* chmod 600 — Private: Only you can read/edit.
+* chmod 755 — Public/Shared: You can change it, others can only read or use it.
+
+| Concept | Real Life Analogy | Linux Command |
+| :--- | :--- | :--- |
+| Moving/Renaming | Moving furniture or relabeling boxes | mv |
+| Copying | Making a photocopy of important papers | cp |
+| Permissions | Who has keys to which rooms | chmod, ls -l |
+| Installing Apps | Ordering new furniture or appliances | apt install |
+
+> Mindset Shift: The Terminal is like talking to the building manager with a walkie-talkie instead of using the elevator buttons. It's direct, fast, and gives you total control.
